@@ -36,8 +36,8 @@ importers:
         specifier: ^25.2.3
         version: 25.2.3
       '@vitest/eslint-plugin':
-        specifier: ^1.6.7
-        version: 1.6.7(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.18(@types/node@25.2.3)(jiti@2.6.1)(tsx@4.21.0))
+        specifier: ^1.6.9
+        version: 1.6.9(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.18(@types/node@25.2.3)(jiti@2.6.1)(tsx@4.21.0))
       aws-cdk:
         specifier: 2.1106.0
         version: 2.1106.0
@@ -51,8 +51,8 @@ importers:
         specifier: ^4.4.4
         version: 4.4.4(eslint-plugin-import@2.32.0)(eslint@9.39.2(jiti@2.6.1))
       eslint-plugin-awscdk:
-        specifier: ^4.1.0
-        version: 4.1.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
+        specifier: ^4.2.0
+        version: 4.2.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
       eslint-plugin-import:
         specifier: ^2.32.0
         version: 2.32.0(@typescript-eslint/parser@8.55.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint-import-resolver-typescript@4.4.4)(eslint@9.39.2(jiti@2.6.1))
@@ -667,8 +667,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@vitest/eslint-plugin@1.6.7':
-    resolution: {integrity: sha512-sd2QJirEscSQk3Pywtelbs7z8RQp1gyF5BfeZVtTHE8y3suyzbAA71NuT9z01uTRMHoCf5p6M2t2WYNJ7m5FlA==}
+  '@vitest/eslint-plugin@1.6.9':
+    resolution: {integrity: sha512-9WfPx1OwJ19QLCSRLkqVO7//1WcWnK3fE/3fJhKMAmDe8+9G4rB47xCNIIeCq3FdEzkIoLTfDlwDlPBaUTMhow==}
     engines: {node: '>=18'}
     peerDependencies:
       eslint: ^9
@@ -973,8 +973,8 @@ packages:
       eslint-import-resolver-webpack:
         optional: true
 
-  eslint-plugin-awscdk@4.1.0:
-    resolution: {integrity: sha512-NgwKKPa5Yrf1oy9KWWGwzjN1B3NfBSEtMKyh08RwO5msGIbW6vkhyeTCCVZo4DrZWaupEf2uuPFdIWbdmeUU2w==}
+  eslint-plugin-awscdk@4.2.0:
+    resolution: {integrity: sha512-yj+Tz+Zof9eCRhOyfXcpbHfmBJ9gdkwenVI6yoUwqY8H/HzaH5nsRAFZFq484KvtbA9siuo+sb06d0WEOyt53A==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: ^9
@@ -2209,7 +2209,7 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.11.1':
     optional: true
 
-  '@vitest/eslint-plugin@1.6.7(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.18(@types/node@25.2.3)(jiti@2.6.1)(tsx@4.21.0))':
+  '@vitest/eslint-plugin@1.6.9(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.18(@types/node@25.2.3)(jiti@2.6.1)(tsx@4.21.0))':
     dependencies:
       '@typescript-eslint/scope-manager': 8.55.0
       '@typescript-eslint/utils': 8.55.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
@@ -2604,7 +2604,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-awscdk@4.1.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3):
+  eslint-plugin-awscdk@4.2.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3):
     dependencies:
       eslint: 9.39.2(jiti@2.6.1)
       typescript: 5.9.3
