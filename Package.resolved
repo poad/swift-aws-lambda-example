@@ -1,5 +1,5 @@
 {
-  "originHash" : "7c7ad40569380ccf419445fee3eb65680f7d1f0dcc1d49d795c20f399777a7a3",
+  "originHash" : "98875b9f9256fc5aeb38d809c84c32ad4fb845e7f0c798c96576d43ae23019c9",
   "pins" : [
     {
       "identity" : "swift-async-algorithms",
@@ -33,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/awslabs/swift-aws-lambda-runtime.git",
       "state" : {
-        "revision" : "22dd7012de6fe689bba0e0fddca141f7446ca5d1",
-        "version" : "2.6.3"
+        "revision" : "6aa43874c8b0163aae12646b0222326d767db05b",
+        "version" : "2.7.0"
       }
     },
     {
