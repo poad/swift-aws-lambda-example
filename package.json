@@ -20,7 +20,7 @@
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.10.0",
     "@types/node": "^24.12.2",
-    "@vitest/eslint-plugin": "^1.6.15",
+    "@vitest/eslint-plugin": "^1.6.16",
     "aws-cdk": "^2.1118.0",
     "esbuild": "^0.28.0",
     "eslint": "^10.2.0",
