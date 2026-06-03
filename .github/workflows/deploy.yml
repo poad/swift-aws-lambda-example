@@ -51,7 +51,7 @@ jobs:
         hash -r
 
     - name: Set up QEMU
-      uses: docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a # v4.0.0
+      uses: docker/setup-qemu-action@06116385d9baf250c9f4dcb4858b16962ea869c3 # v4.1.0
 
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@d7f5e7f509e45cec5c76c4d5afdd7de93d0b3df5 # v4.1.0
@@ -60,7 +60,7 @@ jobs:
       run: swift package archive --allow-network-connections docker --runtime provided.al2023
 
     - name: Configure AWS Credentials
-      uses: aws-actions/configure-aws-credentials@acca2b1b2070338fb9fd1ca27ecee81d687e58e5 # v6.1.2
+      uses: aws-actions/configure-aws-credentials@99214aa6889fcddfa57764031d71add364327e59 # v6.1.3
       with:
         role-to-assume: ${{ env.OIDC_IAM_ROLE_ARN }}
         role-session-name: GitHubActions
