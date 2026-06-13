@@ -19,7 +19,7 @@
     "@eslint/core": "^1.2.1",
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.10.0",
-    "@types/node": "^25.9.1",
+    "@types/node": "^25.9.2",
     "@vitest/eslint-plugin": "^1.6.19",
     "aws-cdk": "^2.1126.0",
     "esbuild": "^0.28.1",
@@ -39,5 +39,5 @@
     "aws-cdk-lib": "^2.258.0",
     "constructs": "^10.6.0"
   },
-  "packageManager": "pnpm@11.5.0"
+  "packageManager": "pnpm@11.6.0"
 }
