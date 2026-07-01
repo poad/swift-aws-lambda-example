@@ -39,5 +39,5 @@
     "aws-cdk-lib": "^2.260.0",
     "constructs": "^10.6.0"
   },
-  "packageManager": "pnpm@11.6.0"
+  "packageManager": "pnpm@11.9.0"
 }
