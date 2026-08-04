@@ -1,5 +1,5 @@
 {
-  "app": "npx tsx bin/swift-aws-lambda-example.ts",
+  "app": "pnx tsx bin/swift-aws-lambda-example.ts",
   "watch": {
     "include": [
       "**"
