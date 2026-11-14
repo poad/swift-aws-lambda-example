@@ -26,6 +26,11 @@ if ! (pnx pnpm@latest self-update && rm -rf node_modules pnpm-lock.yaml && pnpm 
   exit 1
 fi
 
+if ! (swift package update && swift format format -rip Soureces && swift format lint -rp Soureces && swift build); then
+  cd "${CUR}" || exit
+  exit 1
+fi
+
 cd "${CURRENT}" || exit
 result=$?
 if [ $result -ne 0 ]; then
