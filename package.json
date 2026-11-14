@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc --build --clean && tsc",
-    "clean": "tsc --build --clean",
+    "build:clean": "tsc --build --clean",
     "watch": "tsc -w",
     "test": "vitest run --passWithNoTests",
     "cdk": "cdk",
@@ -32,7 +32,7 @@
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "12.20.0",
+      "version": "12.21.0",
       "onFail": "download"
     },
     "runtime": {

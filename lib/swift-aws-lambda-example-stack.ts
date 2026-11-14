@@ -17,7 +17,7 @@ export class SwiftAwsLambdaExampleStack extends cdk.Stack {
       functionName,
       runtime: lambda.Runtime.PROVIDED_AL2023,
       handler: 'main.handler',
-      code: lambda.Code.fromAsset('.build/plugins/AWSLambdaPackager/outputs/AWSLambdaPackager/LambdaExample/LambdaExample.zip'),
+      code: lambda.Code.fromAsset('.build/plugins/AWSLambdaBuilder/outputs/AWSLambdaBuilder/LambdaExample/LambdaExample.zip'),
       architecture: lambda.Architecture.ARM_64,
       logGroup,
     });

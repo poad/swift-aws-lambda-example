@@ -50,7 +50,7 @@ jobs:
       run: swift format lint -rp Soureces
 
     - name: Build Handler
-      run: swift package archive --allow-network-connections docker --runtime provided.al2023
+      run: swift package lambda-build --allow-network-connections docker --runtime provided.al2023
 
     - name: lint
       run: pnpm lint
