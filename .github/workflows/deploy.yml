@@ -64,4 +64,4 @@ jobs:
         aws-region: ${{ env.AWS_REGION }}
 
     - name: deploy
-      run: pnpm dlx aws-cdk@latest deploy --require-approve=never
+      run: pnpm dlx aws-cdk@latest deploy --require-approval=never
